@@ -1,0 +1,209 @@
+.guide {
+  padding-top: 158px;
+  padding-bottom: 139px;
+}
+
+.guide_box_wrapper {
+  display: flex;
+}
+
+.guide_box {
+  margin-right: 140px;
+}
+
+.guide_title {
+  width: 490px;
+  font-family: "Kumbh Sans";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #333461;
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.guide_text {
+  font-family: "Kumbh Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a556c;
+  width: 550px;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.guide_text_span {
+  font-family: "Kumbh Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a556c;
+}
+
+.guide_span {
+  width: 250px;
+  height: 42px;
+  padding: 9px 16px;
+  border-radius: 10px;
+  background-color: #20ad96;
+  cursor: pointer;
+}
+
+.guide_span_link {
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+.guide_img {
+  width: 446px;
+  height: 581px;
+  top: 158px;
+  left: 819px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .guide {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .guide_img {
+    display: none;
+    width: 446px;
+    height: 581px;
+    top: 158px;
+    left: 819px;
+  }
+
+  .guide_box {
+    width: 100vw;
+    margin-right: 0;
+  }
+
+  .guide_title {
+    width: 490px;
+    font-family: "Kumbh Sans";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #333461;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 22px;
+    margin-left: auto;
+  }
+
+  .guide_text {
+    font-family: "Kumbh Sans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4a556c;
+    width: 550px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 22px;
+    margin-left: auto;
+  }
+
+  .guide_span {
+    width: 200px;
+    height: 42px;
+    padding: 9px 16px;
+    border-radius: 10px;
+    background-color: #20ad96;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .guide {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+
+  .guide_img {
+    display: none;
+    width: 446px;
+    height: 581px;
+    top: 158px;
+    left: 819px;
+  }
+
+  .guide_box {
+    width: 100vw;
+    margin-right: 0;
+  }
+
+  .guide_title {
+    width: 350px;
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #333461;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 22px;
+    margin-left: auto;
+  }
+
+  .guide_text {
+    font-family: "Kumbh Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4a556c;
+    width: 350px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 22px;
+    margin-left: auto;
+  }
+
+  .guide_span {
+    width: 180px;
+    height: 42px;
+    padding: 9px 16px;
+    border-radius: 10px;
+    background-color: #20ad96;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+  }
+
+
+}

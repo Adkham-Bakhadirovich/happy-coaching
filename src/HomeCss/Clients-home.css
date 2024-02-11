@@ -1,0 +1,232 @@
+.clients {
+  padding-top: 120px;
+  padding-bottom: 219px;
+  background-color: #faf8f6;
+}
+
+.clients_title {
+  font-family: "Kumbh Sans";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #333461;
+  margin-top: 0;
+  margin-bottom: 37px;
+  width: 530px;
+}
+
+.clients_list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.clients_list_item {
+  width: 400px;
+  padding: 48px;
+  background-color: white;
+}
+
+.clients_list_text {
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #4a556c;
+}
+
+.clients_list_strong {
+  display: block;
+  font-family: "Kumbh Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 15px;
+  color: #333461;
+}
+
+.clients_user_img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 219px;
+    background-color: #faf8f6;
+  }
+
+  .clients_title {
+    font-family: "Kumbh Sans";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #333461;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    max-width: 530px;
+    text-align: center;
+  }
+
+  .clients_list {
+    display: block;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  .clients_list_item {
+    width: 500px;
+    padding: 48px;
+    background-color: white;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    border-radius: 15px;
+  }
+
+  .clients_list_text {
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    color: #4a556c;
+    text-align: center;
+  }
+
+  .clients_list_strong {
+    display: block;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333461;
+  }
+
+  .clients_user_img {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+
+  .clients_star_img {
+    display: block;
+    width: 116px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .clients {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #faf8f6;
+  }
+
+  .clients_title {
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #333461;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    max-width: 350px;
+    text-align: center;
+  }
+
+  .clients_list {
+    display: block;
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  .clients_list_item {
+    width: 350px;
+    padding: 48px;
+    background-color: white;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    border-radius: 15px;
+  }
+
+  .clients_list_text {
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    color: #4a556c;
+    text-align: center;
+  }
+
+  .clients_list_strong {
+    display: block;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333461;
+  }
+
+  .clients_user_img {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+  }
+
+  .clients_star_img {
+    display: block;
+    width: 116px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}

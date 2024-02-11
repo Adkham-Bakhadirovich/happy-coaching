@@ -1,0 +1,77 @@
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/kumbh-sans-v22-latin-regular.woff2") format("woff2"), 
+       url("./fonts/kumbh-sans-v22-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/kumbh-sans-v22-latin-500.woff2") format("woff2"),
+       url("./fonts/kumbh-sans-v22-latin-500.woff") format("woff");
+       
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/kumbh-sans-v22-latin-600.woff2") format("woff2"), 
+       url("./fonts/kumbh-sans-v22-latin-600.woff") format("woff");
+       
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/kumbh-sans-v22-latin-700.woff2") format("woff2"),
+       url("./fonts/kumbh-sans-v22-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/kumbh-sans-v22-latin-800.woff2") format("woff2"), 
+       url("./fonts/kumbh-sans-v22-latin-800.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/inter-v13-latin-regular.woff2") format("woff2"),
+       url("./fonts/inter-v13-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/inter-v13-latin-500.woff2") format("woff2"), 
+       url("./fonts/inter-v13-latin-500.woff") format("woff");
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1280px;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0 20px;
+}

@@ -1,0 +1,217 @@
+.session {
+  padding-bottom: 96px;
+}
+
+.session_box {
+  background-color: #faf8f6;
+  width: 1216px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+.session_inner_box {
+  padding-top: 100px;
+  padding-bottom: 64px;
+  padding-left: 64px;
+}
+
+.session_title {
+  font-family: "Kumbh Sans";
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 550px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333461;
+}
+
+.session_text {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #4a556c;
+}
+
+.session_span {
+  display: block;
+  width: 250px;
+  height: 42px;
+  padding: 9px 16px;
+  border-radius: 10px;
+  background-color: #20ad96;
+  text-align: center;
+  cursor: pointer;
+}
+
+.session_span_link {
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+.session_img {
+  border-radius: 24px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .session {
+    padding-bottom: 70px;
+  }
+  
+  .session_img {
+    display: none;
+    border-radius: 24px;
+  }
+  
+  .session_inner_box {
+    width: 100vw;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+  
+  .session_box {
+    background-color: #faf8f6;
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+  }
+
+  .session_title {
+    font-family: "Kumbh Sans";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 550px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    color: #333461;
+  }
+
+  .session_text {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    color: #4a556c;
+  }
+
+  .session_span {
+    display: block;
+    width: 200px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 9px 16px;
+    border-radius: 10px;
+    background-color: #20ad96;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .session {
+    padding-bottom: 40px;
+  }
+  
+  .session_img {
+    display: none;
+    border-radius: 24px;
+  }
+  
+  .session_inner_box {
+    width: 100vw;
+    padding-top: 60px;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+  
+  .session_box {
+    background-color: #faf8f6;
+    width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+  }
+
+  .session_title {
+    font-family: "Kumbh Sans";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 350px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    color: #333461;
+  }
+
+  .session_text {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    color: #4a556c;
+  }
+
+  .session_span {
+    display: block;
+    width: 180px;
+    height: 42px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 9px 16px;
+    border-radius: 10px;
+    background-color: #20ad96;
+    text-align: center;
+    cursor: pointer;
+  }
+
+}

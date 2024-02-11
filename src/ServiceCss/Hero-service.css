@@ -1,0 +1,202 @@
+.service_hero {
+  padding-top: 92px;
+  padding-bottom: 92px;
+  background-color: #faf8f6;
+}
+
+.service_hero_box {
+  display: flex;
+}
+
+.service_hero_left_box {
+  margin-top: 84px;
+  margin-right: 140px;
+}
+
+.service_hero_desc {
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #4a556c;
+}
+
+.service_hero_title {
+  font-family: "Kumbh Sans";
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 86px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 18px;
+  width: 520px;
+  color: #333461;
+}
+
+.service_hero_text {
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  width: 545px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a556c;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.service_hero_span {
+  width: 250px;
+  height: 42px;
+  padding:9px 16px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #20ad96;
+}
+
+.service_hero_link {
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.service_hero_img {
+  width: 462px;
+  height: 603px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .service_hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #faf8f6;
+  }
+
+  .service_hero_box {
+    display: block;
+  }
+
+  .service_hero_left_box {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .service_hero_desc {
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    color: #4a556c;
+  }
+
+  .service_hero_title {
+    font-family: "Kumbh Sans";
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 86px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-left: auto;
+    width: 520px;
+    color: #333461;
+  }
+
+  .service_hero_text {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .service_hero_img {
+    width: 600px;
+    height: 603px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .service_hero {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #faf8f6;
+  }
+
+  .service_hero_box {
+    display: block;
+  }
+
+  .service_hero_left_box {
+    margin-top: 0px;
+    margin-right: 0px;
+  }
+
+  .service_hero_desc {
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    color: #4a556c;
+  }
+
+  .service_hero_title {
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-left: auto;
+    width: 350px;
+    color: #333461;
+  }
+
+  .service_hero_text {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 350px;
+  }
+
+  .service_hero_img {
+    width: 350px;
+    height: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+}

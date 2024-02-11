@@ -1,0 +1,233 @@
+.hero {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #faf8f6;
+}
+
+.hero_box {
+  display: flex;
+}
+
+.hero_desc {
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #4a556c;
+}
+
+.hero_title {
+  font-family: "Kumbh Sans";
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 86px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 18px;
+  width: 520px;
+  color: #333461;
+}
+
+.hero_text {
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  width: 545px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a556c;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.hero_span {
+  width: 250px;
+  height: 42px;
+  padding:9px 16px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #20ad96;
+}
+
+.hero_link {
+  font-family: "Kumbh Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+
+.hero_img {
+  width: 462px;
+  height: 603px;
+  position: absolute;
+  top: -50px;
+  left: 740px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .hero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .hero_desc {
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #4a556c;
+    text-align: center;
+  }
+
+  .hero_left_box {
+    width: 100vw;
+  }
+
+  .hero_title {
+    font-family: "Kumbh Sans";
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 86px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-left: auto;
+    width: 520px;
+    color: #333461;
+    text-align: center;
+  }
+
+  .hero_text {
+    font-family: "Kumbh Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 545px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4a556c;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .hero_span {
+    width: 200px;
+    height: 42px;
+    padding:9px 16px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #20ad96;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+  }
+  
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .hero {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .hero_desc {
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 300px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    color: #4a556c;
+  }
+
+  .hero_text {
+    font-family: "Kumbh Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4a556c;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    text-align: center;
+    width: 350px;
+  }
+
+
+  .hero_title {
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 18px;
+    margin-left: auto;
+    width: 400px;
+    color: #333461;
+  }
+
+  .hero_text_wrapper {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero_span {
+    width: 180px;
+    height: 42px;
+    padding:9px 16px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #20ad96;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+  }
+  
+
+}
